@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wt-35{
+            width: 35%;
+        }
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div style="width: 50%;float: left;">
+            <a href=""><img src="images/logo.png" alt="" width="170"></a>
+        </div>
+    </section>
+    <div style="clear: both;"></div>
+    <center>
+            <h3>Registration</h3>
+           <table width="35%" bgcolor="#e6e6e6">
+            <tr>
+               <td><div class="form-group"><label>Name</label></div></td>
+               <td><input type="text" placeholder="enter name" id="Name" class="wt-35 form-control" ></td>
+            </tr>
+           <tr>
+                <td><div class="form-group"><label>Email ID</label></div></td>
+                <td><input type="email" placeholder="enter email id" id="Email" class="wt-35 form-control" ></td>
+             </tr>
+             <tr>
+                <td><label>Mobile No</label></td>
+                <td><input type="Text" placeholder="enter mobile no" id="Mobile" class="wt-35" ></td>
+             </tr>
+             <tr>
+                <td><label>DOB</label></td>
+                <td><input type="date" placeholder="date of birth" id="dob"   class="wt-35"></td>
+             </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td>  <input  type="radio" name="gender" id="male"> <label>Male</label>
+                    <input  type="radio" name="gender" id="female">
+                    <label>Female</label></td>
+             </tr>
+             <tr>
+                <td><label>Country</label></td>
+                <td><select name="Country" id="Country"  class="wt-35">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                   </select></td>
+             </tr>
+             <tr>
+                <td><label>State</label></td>
+                <td><select name="State" id="State"  class="wt-35">
+                    <option value="UP">UP</option>
+                    <option value="Delhi">Delhi</option>
+                    
+                   </select></td>
+             </tr>
+             <tr>
+                <td><label>City</label></td>
+                <td><select name="City" id="City"  class="wt-35">
+                    <option value="Kanpur ">Kanpur</option>
+                    <option value="Lucknow">Lucknow</option>
+                   </select></td>
+             </tr>
+             <tr>
+                <td><label>Pincode</label></td>
+                <td><input type="Text" placeholder="enter pincode" id="pincode" class="wt-35"  ></td>
+             </tr>
+             <tr>
+                <td><label>Address</label></td>
+                <td><textarea rows="4" cols="20"   id="address"  ></textarea></td>
+             </tr>
+             <tr>
+                <td></td>
+                <td><input type="checkbox" name="agree" id="agree"> I Agree</td>
+            </tr>
+             <tr>
+                <td><label></label></td>
+                <td><input type="button" name="Submit" value="Submit"/> </td>
+             </tr>
+             
+         </table>
+        </center>
+</body>
+</html>
