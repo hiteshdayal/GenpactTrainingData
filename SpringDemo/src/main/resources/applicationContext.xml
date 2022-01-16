@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns = "http://www.springframework.org/schema/beans" 
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="hello" class="com.org.SpringDemo.HelloWorldService">
+		<property name="name" value="Hitesh"></property>
+		<property name="address" value="Kanpur"></property>
+	</bean>
+
+	<bean id="emp" class="com.org.SpringDemo.EmployeeBean">
+		<property name="name" value="testEmployee"></property>
+		<property name="email" value="testing@email.com"></property>
+		<property name="address" value="testAddress"></property>
+	</bean>
+	
+	<bean id="TestBean" class="com.org.SpringDemo.EmployeeBean">
+      <constructor-arg type = "String" value = "Hitesh"/>
+      <constructor-arg type = "String" value = "hitesh@email.com"/>
+      <constructor-arg type = "String" value = "Kanpur"/>
+   </bean>
+	
+	<bean id="b1" class="com.org.autotype.BOneClass"  autowire="byName"></bean>
+	<bean id="a" class="com.org.autotype.AOneClass" autowire="byName"></bean>
+	
+
+</beans>
